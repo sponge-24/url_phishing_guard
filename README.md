@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 ### 3. Set Up Environment Variables
 
-Create a `.env` file in the root directory and add the VirusTotal API key:
+Check for a `.env` file in the root directory and add the VirusTotal API key:
 
 ```
 api_key=YOUR_VIRUSTOTAL_API_KEY
@@ -62,7 +62,7 @@ api_key=YOUR_VIRUSTOTAL_API_KEY
 ### 4. Run the Flask API
 
 ```bash
-python main.py
+python app.py
 ```
 
 The API will start on `http://127.0.0.1:5000`.
